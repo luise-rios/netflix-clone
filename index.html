@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+
+  <!-- responsividade -->
+  <link rel="stylesheet" href="style/responsive.css">
+
+  <!-- owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+  <title>NETFLIX CLONE</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="left">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Bombando</a>
+          <a href="#">Minha Lista</a>
+        </nav>
+      </div>
+      <div class="right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <img src="img/logo-visavis.png" alt="Logo de Vis a Vis" class="titulo">
+        <p class="descricao">
+          Manipulada pelo homem por quem se apaixonou, essa moça cometeu um crime. Condenada à prisão, ela agora deve aprender a viver num ambiente hostil e impiedoso.
+        </p>
+      <div class="botoes">
+        <button role="button" class="botao" id="play-btn">
+          <i class="fas fa-play"></i>
+          Assistir
+        </button>
+        <button role="button" class="botao" id="info-btn">
+          <i class="fas fa-info-circle"></i>
+          Mais Informações
+        </button>
+      </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrossel-filmes">
+    <div class="owl-carousel owl-theme" onload="loadCarousel(this)">
+      <div class="item" href>
+        <img class="box-filmes" src="img/mini1.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini2.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini3.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini4.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini5.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini6.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini7.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini8.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini9.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filmes" src="img/mini10.jpg" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/1f559b04bd.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
